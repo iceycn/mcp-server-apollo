@@ -1,6 +1,6 @@
 # Apollo MCP Server
 
-Apollo 配置中心的 MCP (Model Context Protocol) 服务，使大语言模型能够通过配置的 Apollo 地址和 Token 对 Apollo 进行查询和操作。支持 **Cursor**、Claude Desktop 等 MCP 客户端。
+Apollo 配置中心的 MCP (Model Context Protocol) 服务，使大语言模型能够通过配置的 Apollo 地址和 Token 对 Apollo 进行查询和操作。支持 **Cursor**、**Trae**、Claude Desktop 等 MCP 客户端。
 
 [![PyPI version](https://badge.fury.io/py/apollo-mcp-server.svg)](https://pypi.org/project/apollo-mcp-server/)
 
@@ -62,9 +62,9 @@ apollo-mcp-server --url http://your-apollo-portal:8070 --token your_open_api_tok
 python -m mcp_server_apollo --url http://your-apollo-portal:8070 --token your_open_api_token
 ```
 
-### Cursor / Claude Desktop 配置
+### Cursor / Trae / Claude Desktop 配置
 
-在 `~/.cursor/mcp.json`（Cursor）或 `claude_desktop_config.json`（Claude）中添加：
+在 `~/.cursor/mcp.json`（Cursor）、Trae 或 `claude_desktop_config.json`（Claude）中添加：
 
 ```json
 {
