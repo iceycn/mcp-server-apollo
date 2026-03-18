@@ -115,4 +115,4 @@ apollo-mcp-server --url http://localhost:8070 --token your_token
 
 ## 许可证
 
-Apache License 2.0
+MIT License
