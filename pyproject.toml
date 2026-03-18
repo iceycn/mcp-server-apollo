@@ -1,13 +1,28 @@
 [project]
 name = "apollo-mcp-server"
-version = "0.1.0"
-description = "Apollo Configuration Center MCP Server"
+version = "1.0.0"
+description = "Apollo Configuration Center MCP Server - 使大语言模型通过 MCP 协议操作 Apollo 配置中心"
 readme = "README.md"
+license = {text = "Apache-2.0"}
 requires-python = ">=3.11"
 dependencies = [
     "httpx>=0.28.1",
     "mcp[cli]>=1.6.0",
 ]
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.optional-dependencies]
+dev = ["build", "twine"]
+
+[project.urls]
+Homepage = "https://github.com/iceycn/mcp-server-apollo"
+Repository = "https://github.com/iceycn/mcp-server-apollo"
 
 [project.scripts]
 apollo-mcp-server = "mcp_server_apollo:main"
