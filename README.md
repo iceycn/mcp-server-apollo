@@ -1,6 +1,6 @@
 # Apollo MCP Server
 
-Apollo 配置中心的 MCP (Model Context Protocol) 服务，使大语言模型能够通过配置的 Apollo 地址和 Token 对 Apollo 进行查询和操作。
+Apollo 配置中心的 MCP (Model Context Protocol) 服务，使大语言模型能够通过配置的 Apollo 地址和 Token 对 Apollo 进行查询和操作。支持 **Cursor**、Claude Desktop 等 MCP 客户端。
 
 [![PyPI version](https://badge.fury.io/py/apollo-mcp-server.svg)](https://pypi.org/project/apollo-mcp-server/)
 
